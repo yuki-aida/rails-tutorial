@@ -1,41 +1,37 @@
-# Ruby on Rails チュートリアルのサンプルアプリケーション
+# Sample App
 
-これは、次の教材で作られたサンプルアプリケーションです。   
-[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
-[Michael Hartl](http://www.michaelhartl.com/) 著
+これはRailsチュートリアルで作成したサンプルアプリケーションです。
 
-## ライセンス
+機能一覧
 
-[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
-ソースコードはMITライセンスとBeerwareライセンスのもとで公開されています。
-詳細は [LICENSE.md](LICENSE.md) をご覧ください。
+・ユーザー登録機能<br>
+・アカウントの認証機能<br>
+・ログイン、ログアウト機能<br>
+・記事、画像の投稿機能<br>
+・記事一覧表示機能<br>
+・ページネーション機能<br>
+・フォロー機能<br>
+・単体テスト機能(minitest)<br>
+・統合テスト機能(minitest)<br>
 
-## 使い方
+インフラ構成
 
-このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
-その後、次のコマンドで必要になる RubyGems をインストールします。
-
-```
-$ bundle install --without production
-```
-
-その後、データベースへのマイグレーションを実行します。
-
-```
-$ rails db:migrate
-```
-
-最後に、テストを実行してうまく動いているかどうか確認してください。
-
-```
-$ rails test
-```
-
-テストが無事に通ったら、Railsサーバーを立ち上げる準備が整っているはずです。
-
-```
-$ rails server
-```
-
-詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
-を参考にしてください。
+・統合開発環境<br>
+　・AWS(Cloud9)<br>
+・公開用プラットフォーム<br>
+　・Heroku<br>
+・バージョン管理<br>
+　・Git<br>
+・Webサーバー<br>
+　・Production環境<br>
+　　・Puma 3.9.1<br>
+・DB<br>
+　・Production環境<br>
+　　・PostgreSQL(0.20.0)<br>
+・フロントエンド言語<br>
+　・HTML<br>
+　・SCSS<br>
+　・Javascript<br>
+・バックエンド言語<br>
+　・Ruby 2.6.3<br>
+　・Ruby on Rails 5.1.6
