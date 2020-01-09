@@ -289,3 +289,12 @@ span.picture {
     border: 0;
   }
 }
+
+#popup {
+    position: fixed;
+    width: auto;
+    height: 130px;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}

@@ -1,3 +1,14 @@
+<!-- ポップアップ -->
+<div id="popup">
+    <p>テストユーザーの方へ<br>下記を用いてログインしてください。</p>
+    <p>email: testuser21555@gmail.com<br>password: testuser</p>
+    <input type="button" id="close" value="close" style="margin-top: 5px;">
+</div>
+<script>
+  document.getElementById("close").onclick = function() {
+  document.getElementById("popup").style.display = "none";
+};
+</script>
 <div class="center jumbotron">
   <h1>Welcome to the Sample App</h1>
 
